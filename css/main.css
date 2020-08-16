@@ -169,4 +169,76 @@ h1 {
   fill: currentColor;
   margin-right: 10px;
 }
+
+.hero {
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url("../images/Header-img-1.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/Header-img-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  /*outline: 4px solid yellow;*/
+  max-width: 1600px;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 46px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+  padding-top: 196px;
+}
+
+.feature {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feature .item {
+  width: 270px;
+}
+
+.feature .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.feature-img {
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  background: #F5F4FA;
+}
+
+.feature-title {
+  margin-top: 30px;
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
 /*# sourceMappingURL=main.css.map */
