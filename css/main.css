@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .list {
   padding: 0;
   margin: 0;
@@ -29,6 +30,11 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   /*outline: 4px solid olivedrab;*/
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .header {
@@ -231,7 +237,8 @@ h1 {
 
 .feature-title {
   margin-top: 30px;
-  color: var(--primary-text-color);
+  margin-bottom: 10px;
+  color: #212121;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -240,5 +247,60 @@ h1 {
   letter-spacing: 0.03rem;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+.feature-title-item {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  margin: 0;
+}
+
+.button {
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #fff;
+  background-color: #2196F3;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  /*тень*/
+  font-style: normal;
+  border-radius: 4px;
+  /*мягкие углы*/
+  text-align: center;
+  /* выравнивает текст*/
+  min-width: 200px;
+  display: inline-block;
+  padding: 10px 32px;
+  /*по макету*/
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.06em;
+  border: 2px solid transparent;
+  margin-bottom: 204px;
+  cursor: pointer;
+}
+
+.button:hover, .button:focus {
+  color: #2196F3;
+  border: 2px solid transparent;
+  background-color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
