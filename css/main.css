@@ -38,6 +38,7 @@ a {
 }
 
 .section-title {
+  margin: 0;
   margin-bottom: 50px;
   color: #212121;
   font-family: Roboto;
@@ -47,7 +48,6 @@ a {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03rem;
-  margin: 0;
 }
 
 .header {
@@ -438,5 +438,43 @@ h1 {
 
 .soc-icon-team {
   fill: currentColor;
+}
+
+.customers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.customers-link {
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  stroke-width: 1px;
+  color: #AFB1B8;
+}
+
+.customers-link:hover, .customers-link:focus {
+  color: #2196F3;
+  border: 1px solid #2196F3;
 }
 /*# sourceMappingURL=main.css.map */
