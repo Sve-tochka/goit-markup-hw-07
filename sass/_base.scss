@@ -35,3 +35,16 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.section-title {
+    margin-bottom: 50px;
+    color: $primary-text-color;
+    font-family: $primary-font-family;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03rem;
+    margin: 0;
+}
