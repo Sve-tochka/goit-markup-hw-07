@@ -92,3 +92,11 @@ main {
     font-style: normal;
 }
 
+.catalog-link:hover .text,
+.catalog-link:focus .text,
+.catalog-item:hover .text,
+.catalog-item:focus .text {
+    transform: translateY(0);
+}
+
+

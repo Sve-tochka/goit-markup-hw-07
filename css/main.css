@@ -1136,4 +1136,12 @@ main {
   letter-spacing: 0.03rem;
   font-style: normal;
 }
+
+.catalog-link:hover .text,
+.catalog-link:focus .text,
+.catalog-item:hover .text,
+.catalog-item:focus .text {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
 /*# sourceMappingURL=main.css.map */
