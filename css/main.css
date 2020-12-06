@@ -15,12 +15,16 @@ a {
 
 .page {
   color: #757575;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03rem;
+}
+
+.page .page-header {
+  border-bottom: 2px solid #ececec;
 }
 
 .conteiner {
@@ -41,7 +45,7 @@ a {
   margin: 0;
   margin-bottom: 50px;
   color: #212121;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -76,7 +80,7 @@ h1 {
 .logo {
   /* Web */
   color: #2196F3;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -86,7 +90,7 @@ h1 {
 .site-logo {
   /* Studio*/
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -110,7 +114,7 @@ h1 {
   padding-top: 32px;
   padding-bottom: 32px;
   color: #212121;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -259,12 +263,11 @@ h1 {
   line-height: 1.1;
   letter-spacing: 0.03rem;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 
 .feature-title-item {
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .button {
@@ -272,7 +275,7 @@ h1 {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #fff;
   background-color: #2196F3;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
@@ -333,7 +336,7 @@ h1 {
   padding-top: 27px;
   padding-bottom: 27px;
   border-radius: 0px 0px 4px 4px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -373,7 +376,7 @@ h1 {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.2;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
 }
 
@@ -513,7 +516,7 @@ h1 {
 
 .footer-adress {
   color: #fff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -523,7 +526,7 @@ h1 {
 
 .footer-adress a {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -544,7 +547,7 @@ address a {
   margin-top: 0;
   margin-bottom: 20px;
   color: #fff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -594,7 +597,7 @@ address a {
   cursor: pointer;
   color: #fff;
   background: #2196F3;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -612,7 +615,7 @@ address a {
 .footer-input {
   background-color: #2F303A;
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
@@ -661,7 +664,7 @@ address a {
 
 .goit {
   color: rgba(255, 255, 255, 0.4);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -917,7 +920,7 @@ address a {
   height: 15px;
   border: 2px solid black;
   border-radius: 2px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -955,7 +958,7 @@ address a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 200px;
   height: 50px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -1003,7 +1006,7 @@ address a {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #F5F4FA;
   color: #212121;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1077,7 +1080,7 @@ main {
   margin: 0;
   padding-bottom: 4px;
   color: #212121;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -1088,7 +1091,7 @@ main {
 .catalog-type {
   margin: 0;
   color: #757575;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
@@ -1129,7 +1132,7 @@ main {
   background-color: rgba(33, 150, 243, 0.9);
   border-radius: 5px 5px 0px 0px;
   color: #fff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.6;
